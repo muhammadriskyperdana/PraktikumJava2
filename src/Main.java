@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class Main {
     public static void main(String[] args) {
         String namaDepan = "Muhammad";
@@ -16,5 +18,10 @@ public class Main {
         String  uniskaString = new String(uniskaChar);
         System.out.println(uniskaChar);
         System.out.println(uniskaString);
+
+        String namaLengkap = namaDepan + " " + namaTengah + " " + namaBelakang;
+
+       
+
     }
 }
