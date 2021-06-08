@@ -21,7 +21,20 @@ public class Main {
 
         String namaLengkap = namaDepan + " " + namaTengah + " " + namaBelakang;
 
+        System.out.println(namaLengkap);
+        System.out.println(namaLengkap.length());
+        System.out.println(namaLengkap.indexOf("dan"));
+        System.out.println(namaLengkap.substring(10));
+        System.out.println(namaLengkap.substring(10,13));
+        System.out.println(namaLengkap.replace("Ris","Barr"));
+        System.out.println(namaLengkap.toLowerCase());
+        System.out.println(namaLengkap.toLowerCase());
+        System.out.println(namaLengkap.charAt(10));
 
+        String[] namaArray = namaLengkap.split( " ");
+
+        for(String nama: namaArray)
+            System.out.println(nama);
 
     }
 }
