@@ -21,7 +21,7 @@ public class Main {
 
         String namaLengkap = namaDepan + " " + namaTengah + " " + namaBelakang;
 
-       
+
 
     }
 }
