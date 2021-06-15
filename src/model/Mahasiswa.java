@@ -1,16 +1,37 @@
 package model;
 
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
 public class Mahasiswa {
-    String npm;
-    String nama;
-    Date tanggallahir;
+    private String npm;
+    private String nama;
+    private Date tanggallahir;
 
-    void tampilkanAtribut() {
+    public String getNpm() {
+        return npm;
+    }
+    public void setNpm(String npm) {
+        this.npm = npm;
+    }
+
+    public String getNama(){
+        return nama;}
+
+    public void setNama (String nama) {
+        this.nama = nama;
+    }
+
+    public Date getTanggallahir() {
+        return tanggallahir;
+    }
+
+    public void setTanggallahir(Date tanggallahir) {
+        this.tanggallahir = tanggallahir;
+    }
+
+    void tampilkanAtribut(){
         String polaTanggal = "dd-MM-yyy";
         SimpleDateFormat sdf = new SimpleDateFormat(polaTanggal);
 
@@ -20,9 +41,7 @@ public class Mahasiswa {
         System.out.println("Tanggal Lahir \t :" + sdf.format(this.tanggallahir));
         System.out.println("Usia : \t\t\t : " + hitungUsia());
     }
-    String getNama(){
-        return nama;
-    }
+
 
     int hitungUsia(){
 

@@ -1,3 +1,5 @@
+import model.Mahasiswa;
+
 import java.util.Locale;
 
 public class Main {
@@ -35,6 +37,7 @@ public class Main {
 
         for(String nama: namaArray)
             System.out.println(nama);
+
 
     }
 }
