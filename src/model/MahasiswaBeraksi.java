@@ -15,7 +15,7 @@ public class MahasiswaBeraksi {
         mahasiswa.npm = "19630366";
         mahasiswa.nama = "Awal";
         try {
-            mahasiswa.tanggallahir = sdf.parse("02-01-2000");
+            mahasiswa.tanggallahir = sdf.parse("09-06-2000");
             mahasiswa.tampilkanAtribut();
 
         } catch (ParseException e) {
